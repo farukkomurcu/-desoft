@@ -45,6 +45,8 @@ message=driver.find_element(By.XPATH, "//input[@value='5']").is_displayed()
 print(message) #T, sepete 5 adet ürün eklendi.
 driver.get_screenshot_as_file("addingToCardFiveItems.png") #sepete eklenmiş olan 5 adet ürüne ait ekran alıntısı
 
+driver.close() #driver kapatıldı
+
 
 
 
